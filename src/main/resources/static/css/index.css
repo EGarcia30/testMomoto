@@ -1,0 +1,11 @@
+.card-list{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.nav-footer{
+    position:absolute;
+    bottom:40px;
+    left:40px;
+}
